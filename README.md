@@ -12,7 +12,7 @@ https://buttonbugs.github.io/3D-Printer-Monitor/mirror/
 
 1. Open the [Link](https://buttonbugs.github.io/3D-Printer-Monitor/mirror/)
 2. Allow the brower to use your camera
-3. Click to flip the camera
+3. Click to flip the camera (if needed)
 4. Open [Discord](https://discord.com/)
 5. Join `Live Printer Monitor` channel
 6. Go to `Share Your Screen` &rarr; `Applications` &rarr; the web browser
