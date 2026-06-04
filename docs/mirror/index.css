@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black; /* Fills any outer leftover space with black */
+    overflow: hidden;        /* Prevents scrollbars */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center; /* Centers video horizontally */
+    align-items: center;     /* Centers video vertically */
+    width: 100vw;            /* Full window width */
+    height: 100vh;           /* Full window height */
+    background-color: black; /* Fills internal letterboxing with black */
+}
+
+#webcam {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;     /* Fit - Makes video as large as possible without cropping */
+    object-fit: cover;       /* Crop - Zooms or crops to ensure zero black borders */
+}
